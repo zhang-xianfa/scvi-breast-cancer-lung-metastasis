@@ -1,0 +1,16 @@
+Metrics for MODEL:
+  Silhouette Score: -0.1314
+  Calinski-Harabasz Index: 54.4554
+  Davies-Bouldin Index: 4.4265
+Metrics for TYPE:
+  Silhouette Score: 0.0067
+  Calinski-Harabasz Index: 1.3549
+  Davies-Bouldin Index: 30.4605
+Metrics for PDG:
+  Silhouette Score: -0.0527
+  Calinski-Harabasz Index: 23.4056
+  Davies-Bouldin Index: 11.9375
+Metrics for PHASE:
+  Silhouette Score: -0.0390
+  Calinski-Harabasz Index: 18.6527
+  Davies-Bouldin Index: 10.8858
