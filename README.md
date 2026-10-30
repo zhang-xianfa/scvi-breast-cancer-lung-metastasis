@@ -49,6 +49,12 @@
 **结论：scVI 在 kBET 与 LISI 两项批次混合指标上均为最优**，说明其整合后不同批次的细胞
 混合得最充分；同时保留了较好的聚类可分性（Silhouette 最高）。
 
+> **指标出处**：kBET / LISI 由 `code/batch_correction_baselines.R`（R 包 `kBET`、`lisi`）
+> 与 `code/scvi_analysis.py` 计算，Silhouette / Calinski 由 `code/main.py` 计算。
+> 上述两项指标的原始输出文本未随仓库保存，`results/` 里保留的是
+> Silhouette / Calinski-Harabasz / Davies-Bouldin 的复现输出，
+> 复核步骤见 `results/README.md`。
+
 ### 3. 下游分析
 
 ```
